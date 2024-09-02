@@ -1,0 +1,20 @@
+h1 {
+    color: #3498db; 
+    font-size: 24px; 
+    font-style: italic; 
+    font-weight: bold;
+    }
+
+h2 { 
+    color: chartreuse; 
+    font-size: 40px;
+    font-style: initial;
+    font-weight: 400;
+   }
+
+h3 {
+    color: crimson;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 900;
+}

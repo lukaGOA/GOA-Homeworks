@@ -8,7 +8,7 @@ overweight = 'more or equal to 25 and less than 30'
 obesity = '30 or more'
 
 bmi = float(weight) / (float(height) ** 2)
-if bmi < 18.5:
+if   bmi < 18.5:
     print(underweight)
 elif 18.5 <= bmi < 24.9:
       print(normal)
