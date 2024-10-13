@@ -31,7 +31,7 @@ def fnction():
       
       max_grade = max(grades)
       return f"მაქსიმალური ქულა: {max_grade}"
-    
+
       min_grade = min(grades)
       return f"მინიმალური ქულა: {min_grade}" 
     
