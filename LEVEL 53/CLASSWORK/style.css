@@ -28,8 +28,6 @@ h1{
     top: 100px;
     margin-top: 260px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-
-    
 }
 
 .p2{
@@ -89,7 +87,6 @@ p{
     text-align: center;
     color: darkgray;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-
 }
 
 .p3{
@@ -431,7 +428,7 @@ footer {
     padding: 40px 20px;
     text-align: center;
     font-family: Arial, sans-serif;
-  }
+}
 
   .footer-container {
     display: flex;
@@ -440,11 +437,11 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
+}
   
   .footer-left img {
     max-height: 40px;
-  }
+}
   
   .footer-middle ul {
     list-style: none;
@@ -452,17 +449,17 @@ footer {
     margin: 0;
     display: flex;
     gap: 20px;
-  }
+}
   
   .footer-middle ul li {
     display: inline;
-  }
+}
   
   .footer-middle ul li a {
     text-decoration: none;
     color: #6c757d;
     font-size: 14px;
-  }
+}
   
   
 
