@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    transform: rotate(40deg);
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
+
+
+.div2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+}
+
+.div2:hover{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.div3{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.div3:hover{
+    height: 400px;
+    width: 400px;
+}
