@@ -123,3 +123,30 @@ body{
     top: 475px;
     left: 50px;
 }
+
+.h33{
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    margin-left: 75px;
+}
+
+.h34{
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    margin-left: 55px;
+}
+
+.h35{
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    margin-left: 55px;
+}

@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+        "header header header sect1"
+        "sidebar sect2 sect3 navigation"
+        "sidebar sect4 sect5 navigation";
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 3px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: white;
+}
+
+header{
+    grid-area: header;
+    background-color: #8bc34a;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+aside{
+    grid-area: sidebar;
+    background-color: #8bc34a;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.sect1{
+    grid-area: sect1;
+    background-color: #f44336;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.sect2{
+    grid-area: sect2;
+    background-color: #ffca28;
+    text-align: center;
+    padding: 10px;
+}
+
+.sect3{
+    grid-area: sect3;
+    background-color: #f44336;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.sect4{
+    grid-area: sect4;
+    background-color: #f44336;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.sect5{
+    grid-area: sect5;
+    background-color: #ffca28;
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    grid-area: navigation;
+    background-color: #8bc34a;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

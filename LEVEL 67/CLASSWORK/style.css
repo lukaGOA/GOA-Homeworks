@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+}
+
+header{
+    width: 1700px;
+    height: 200px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin-left: 450px;
+    margin-top: 200px;
+}
+
+p{
+    width: 200px;
+    position: absolute;
+    left: 950px;
+    bottom: 150px;
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        display: none;
+    }
+
+    p{
+        width: 100px;
+        position: absolute;
+    }
+    
+    img{
+        width: 250px;
+        height: 200px;
+        margin-top: 450px;
+    }     
+}
