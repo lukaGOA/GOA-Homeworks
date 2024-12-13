@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-md rounded-lg max-w-xl flex overflow-hidden">
+        <div class="w-1/2">
+            <img 
+                src="image.png" 
+                alt="Gabrielle Perfume" 
+                class="w-full h-full object-cover">
+        </div>
+        <div class="w-1/2 p-6 flex flex-col justify-center">
+            <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wide">Perfume</h3>
+            <h2 class="text-2xl font-bold text-gray-800 mt-2 leading-tight">Gabrielle Essence Eau De Parfum</h2>
+            <p class="text-gray-600 mt-4 leading-relaxed">
+                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="mt-6">
+                <div class="flex items-baseline space-x-2">
+                    <span class="text-3xl font-bold text-green-600">$149.99</span>
+                    <span class="text-lg text-gray-400 line-through">$169.99</span>
+                </div>
+                <button class="mt-4 bg-green-600 text-white font-medium py-2 px-6 rounded-lg hover:bg-green-700 transition focus:ring focus:ring-green-400 focus:outline-none">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
