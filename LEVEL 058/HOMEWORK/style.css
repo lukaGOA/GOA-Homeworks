@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div1{
+    background-color: hsl(31, 77%, 52%);
+    height: 600px;
+    width: 1050px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.div2{
+    background-color: hsl(184, 100%, 22%);
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    left: 675px;
+}
+
+.div3{
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    background-color: hsl(179, 100%, 13%);
+    left: 1025px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.img1{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.img2{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.img3{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.h1{
+    position: absolute;
+    color: white;
+    font-family: cursive;
+    top: 250px;
+    left: 400px;
+}
+
+.h2{
+    position: absolute;
+    color: white;
+    font-family: cursive;
+    top: 150px;
+    left: 50px;
+}
+
+.h3{
+    position: absolute;
+    color: white;
+    font-family: cursive;
+    top: 150px;
+    left: 50px;
+}
+
+.btn1{
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    font-family: cursive;
+    font-size: large;
+    color: hsl(31, 77%, 52%);
+    border: none;
+    top: 575px;
+    left: 400px;
+}
+
+.btn2{
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    font-family: cursive;
+    font-size: large;
+    color: hsl(184, 100%, 22%);
+    border: none;
+    top: 475px;
+    left: 50px;
+}
+
+.btn3{
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    font-family: cursive;
+    font-size: large;
+    color: hsl(179, 100%, 13%);
+    border: none;
+    top: 475px;
+    left: 50px;
+}
+
+.h33{
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    margin-left: 75px;
+}
+
+.h34{
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    margin-left: 55px;
+}
+
+.h35{
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    margin-left: 55px;
+}
